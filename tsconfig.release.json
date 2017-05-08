@@ -1,7 +1,13 @@
 {
   "inherits": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "release"
+    "outDir": "release",
+    "declaration": true,
+    "noEmitHelpers": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "pretty": true    
   },
   "files": [ "./src/index.ts" ]
 }

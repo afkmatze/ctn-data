@@ -6,3 +6,4 @@ var Node = (function () {
     return Node;
 }());
 exports.Node = Node;
+//# sourceMappingURL=Node.class.js.map

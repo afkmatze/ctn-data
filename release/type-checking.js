@@ -28,3 +28,4 @@ exports.CtnNested = function (other) {
         &&
             other.children.every(exports.CtnId));
 };
+//# sourceMappingURL=type-checking.js.map

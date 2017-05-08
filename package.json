@@ -6,6 +6,8 @@
   "typings": "release/index.d.ts",
   "scripts": {
     "build:dev": "tsc",
+    "clean": "rimraf ./release",
+    "prebuild": "npm run clean",
     "build": "tsc -p ./tsconfig.release.json"
   },
   "repository": {

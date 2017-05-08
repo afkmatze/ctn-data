@@ -8,3 +8,4 @@ var Models = require("./models");
 exports.Models = Models;
 var TypeChecking = require("./type-checking");
 exports.is = TypeChecking;
+//# sourceMappingURL=index.js.map
