@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/tEErohr/Documents/kio/ctn/modules/ctn-data",
+      "folder_exclude_patterns": ["node_modules"]      
+		}
+	],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
