@@ -1,0 +1,7 @@
+{
+  "inherits": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "release"
+  },
+  "files": [ "./src/index.ts" ]
+}

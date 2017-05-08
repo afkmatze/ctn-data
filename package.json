@@ -1,0 +1,27 @@
+{
+  "name": "ctn-data",
+  "version": "0.0.0",
+  "description": "ctn data types and models",
+  "main": "release/index.js",
+  "typings": "release/index.d.ts",
+  "scripts": {
+    "build:dev": "tsc",
+    "build": "tsc -p ./tsconfig.release.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afkmatze/ctn-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afkmatze/ctn-data/issues"
+  },
+  "homepage": "https://github.com/afkmatze/ctn-data#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
+    "tslint": "^5.2.0"
+  }
+}
